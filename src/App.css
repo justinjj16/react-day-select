@@ -1,7 +1,51 @@
 .App {
   text-align: center;
+  background: url(/src/images/saveWater.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 .app-inner {
   width: 50%;
   margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+}
+.margin-T-20 {
+  margin-top: 20px;
+}
+.margin-B-20 {
+  margin-bottom: 20px;
+}
+.heading {
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.react-date-select {
+  font-size: 24px;
+  font-weight: 800;
+  color: red;
+  white-space: nowrap;
+}
+.footer-div {
+  font-size: 20px;
+  background: black;
+  color: yellow;
+  font-weight: 800;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

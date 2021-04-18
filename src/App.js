@@ -10,8 +10,11 @@ function App() {
           <h3 className="heading">Save water</h3>
         </div>
         <div className="margin-T-20 margin-B-20 react-date-select">React Day Select</div>
+        <div className="react-datepicker">
         <DatePicker 
-        />
+        />  
+        </div>
+        
       </div>
       <footer>
         <div className="footer-div">A drop of water is worth more than a sack of gold to a thirsty man</div>

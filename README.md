@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# React Date Select
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# WORK IN PROGRESS
 
-## Available Scripts
+[![npm](https://img.shields.io/npm/v/react-day-select.svg)](https://www.npmjs.com/package/react-day-select) ![downloads](https://img.shields.io/npm/dt/react-day-select.svg)
 
-In the project directory, you can run:
+A simple and reusable Datepicker component for React [(Demo)](https://parceljs.org)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The package can be installed via npm:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm i react-day-select --save
+```
 
-### `npm test`
+Or via yarn:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+yarn add react-day-select
+```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here's an example of basic usage:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+import React, { useState } from 'react';
+import DatePicker from 'react-day-select';
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+function MyDatePicker() {
 
-### `npm run eject`
+  return (
+    <div>
+      <DatePicker
+        bgColor='#435EBE'
+        onChange={(e)=>console.log(e)}
+        format="MM-DD-YYYY"
+      />
+    </div>
+  );
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Prop name | Description                                | Default value  | Example values                   |
+| --------- | ------------------------------------------ | -------------- | -------------------------------- |
+| bgColor   | background color of head possition         | #2b7479        | 'red, 'green', '#2b7479' etc.    |
+| onChange  | Tigger when a day is selecte requird Field | requird Field  | requird Field                    |
+| format    | format of the output                       | August 05 1993 | MM-DD-YYYY mm-dd-yyyy DD-MM-YYYY |
+|           |                                            |                |                                  |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The MIT License.
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<table>
+  <tr>
+    <td>
+      <img src="https://avatars.githubusercontent.com/u/38469058?v=4." width="100">
+    </td>
+    <td>
+      Justin Joseph<br />
+      <a href="mailto:mailtojustinj@gmail.com">mailtojustinj@gmail.com</a><br />
+      <a href="https://justinjj16.github.io/justinjoseph/home">https://justinjj16.github.io/justinjoseph/home</a>
+    </td>
+  </tr>
+</table>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Thank you
 
-### Code Splitting
+Thank you to all [Please save Water and River](https://parceljs.org)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[]()
 
-### Analyzing the Bundle Size
+### Water, water everywhere but not a drop to drink.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### A drop of water is worth more than a sack of gold to a thirsty man.

@@ -6,6 +6,10 @@
 
 A simple and reusable Datepicker component for React [(Demo)](https://parceljs.org)
 
+<img src="https://raw.githubusercontent.com/justinjj16/react-day-select/master/src/images/fullview.png" width="310"  /> <img src="https://raw.githubusercontent.com/justinjj16/react-day-select/master/src/images/yearView.png" width="310"  />
+
+![](=100x20)
+
 ## Installation
 
 The package can be installed via npm:
